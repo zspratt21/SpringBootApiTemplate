@@ -50,7 +50,7 @@ Then start the application with
 The example api is a simple CRUD api for colors. It has the following endpoints:
 
 - GET /colors - Returns all colors
-- GET /colors/:id - Returns a color by name
+- GET /colors/:name - Returns a color by name
 - POST /colors - Creates a new color
 - PUT /colors/:id - Updates a color by id (id in json body needs to match id in url)
 - DELETE /colors/:id - Deletes a color by id
